@@ -1,0 +1,179 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo-login.jpg) no-repeat center top;
+    background-size: cover;                                         /*ajusta la imagen al navegador*/
+    font-family: 'Gill Sans MT';
+    height: 100vh;                                      /** El alto del dispositivo "veiw height" */
+}
+
+
+/*------------------DISEÑO DIV LOGIN--------------------------------------*/
+.caja-login{
+
+    width: 400px;
+    height: 500px;
+    background: rgb(16, 12, 66);
+    color: white;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -70%);
+    box-sizing: border-box;
+    padding: 70px 40px;
+}
+
+.titulo-login{
+    margin: 0;
+    padding: 20px 0 30px;
+    text-align: center;
+    font-size: 30px;
+ }
+
+
+.caja-login .logo-login{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: calc(45% - 50px);
+}
+
+.caja-login label{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.entrada-texto{
+
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.entrada-texto[type="email"],
+.entrada-texto[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn-ingresar{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(2, 197, 171);
+    color: #fff;
+    border-radius: 50px;
+}
+
+.btn-ingresar:hover{
+    background: white;
+    color: rgb(2, 197, 171);
+}
+
+.btn-registrar{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(9, 113, 233);
+    color: #fff;
+    border-radius: 50px;
+}
+
+.btn-registrar:hover{
+    background: white;
+    color: rgb(9, 113, 233);
+}
+
+form .texto-sin-cuenta{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: darkgray;
+}
+
+.enlace-pag{
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(2, 197, 171);
+    text-align: center;
+}
+
+.enlace-pag:hover{
+
+    color: rgb(255, 255, 255);
+}
+
+/*------------------DISEÑO DIV REGISTRO--------------------------------------*/
+
+.modal-dialog{
+    width: 400px;
+}
+
+#exampleModal{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo-login.jpg) no-repeat center top;
+    background-size: cover;                                         /*ajusta la imagen al navegador*/
+    font-family: 'Gill Sans MT';
+    height: 100vh
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo-login.jpg) no-repeat center top;
+    background-size: cover;                                         /*ajusta la imagen al navegador*/
+    font-family: 'Gill Sans MT';
+    height: 100vh;                                      /** El alto del dispositivo "veiw height" */
+}
+
+
+.modal-body label{
+    font-size: 20px;
+}
+
+.modal-content{
+    margin-top: 15%;
+    background: rgb(16, 12, 66);
+    color: #fff;
+}
+
+#exampleModalLabel{
+    position: absolute;
+    left: 30%;
+    font-size: 20px;
+}
+
+
+#registrarCorreo[type="email"],
+#registrarNombre[type="text"],
+#passRegistro[type="password"],
+#passRegistro2[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 0;
+}
